@@ -3,9 +3,9 @@ on : workflow_dispatch
 jobs :
   first-job:
     runs-on : ubuntu-latest
-    steps :
-      -name: print Name
-       run : echo "Asmita"
+     steps :
+       -name: print Name
+       run :echo "Asmita"
        -name :final Message
         run :echo "Last message"
       

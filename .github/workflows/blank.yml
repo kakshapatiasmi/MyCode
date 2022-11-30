@@ -5,9 +5,9 @@ jobs :
     runs-on : ubuntu-latest
     steps :
       -name: print Name
-      run : echo "Asmita"
-     -name :final Message
-     run :echo "Last message"
+       run : echo "Asmita"
+       -name :final Message
+        run :echo "Last message"
       
       
     
